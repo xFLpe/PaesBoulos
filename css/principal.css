@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Parisienne&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{       
+    
+    font-size: 100%;
+    background: #c4c4c4c4;
+}
+
+.cabecalho { 
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+min-width: fit-content;
+}
+
+/* Imagem Trigo */
+.cabecalho img{
+    max-width: 60px;
+    max-height: 86px;
+}
+
+.imgLeft{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);   
+
+}
+
+.redes {
+    gap: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.tit-sub{
+    flex-direction: column;    
+    white-space: nowrap;
+    overflow: hidden;
+
+
+}
+
+.titulo{  
+    text-align: center;
+    font-size: auto;    
+    letter-spacing: 0.5em;    
+    font-family: Parisienne, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 5px;  
+
+    /* Cor */
+        color: #B57F23;    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.subtitulo{
+    font-family: Croissant One,sans-serif;
+    text-align: center; 
+    font-size: auto;    
+    letter-spacing: 0.2em;
+    color: #B57F23;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.nav-header-menu{
+    margin-top: 20px;
+    display: flex;  
+    justify-content: space-evenly;
+    font-family: Croissant One,sans-serif;    
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        color: #805e23;
+        background-color:#ceab6f;             
+        min-width: 600px;
+        
+
+}
+
+a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #d19226;
+    cursor: url('/img/breadzin.png'), grab;
+
+
+}
+
+.container{
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+}
+
+.container h1{
+
+    color: #B57F23;    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Croissant One,sans-serif;  
+        font-size: auto; 
+        min-width: 600px;
+
+        
+
+}
+
+.container p{
+
+    margin-left: 5em;
+    margin-right: 5em;
+    color: #B57F23;    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        font-family: Croissant One,sans-serif;
+        text-align: justify;     
+        font-size: 1.2em;    
+        
+
+}
+
+.check{
+    color: #855d17;
+    font-family: Croissant One,sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 6.5em;
+    margin-right: 5em;    
+}
+
+input[type=checkbox]:checked + label.riscado{
+    text-decoration: line-through;    
+  }
+
+
